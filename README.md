@@ -10,6 +10,7 @@
 This project demonstrates an AI-driven workflow to analyze incident data and generate structured outputs for operational and leadership decision-making.
 ## Workflow
 ![Workflow](workflow.png)
+
 ## Problem
 Incident data is often unstructured, inconsistent, and spread across multiple teams, making it difficult to identify root causes, define actions, and ensure accountability.
 
