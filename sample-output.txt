@@ -1,0 +1,33 @@
+Incident Summary
+Production login failures due to system slowness; services restored via restart; root cause remains inconclusive.
+
+Business Impact
+Users were unable to access the application, impacting critical operations and causing service disruption.
+Increased risk of SLA breach due to repeated occurrence and delayed root cause identification.
+
+Observations
+High DB connections indicate possible resource saturation or connection leak.
+Incomplete logs limited accurate root cause validation.
+Temporary fixes (restart, cache clear) restored service but did not address underlying issue.
+Repeat occurrence suggests unresolved systemic problem.
+Multiple contributing factors observed across DB and application layers.
+
+Corrective Actions (Immediate)
+High | Owner: Application Team → Validate system stability post-restart over defined monitoring window.
+High | Owner: DB Team → Analyze DB connections and identify abnormal spikes or leaks.
+Medium | Owner: Infra Team → Capture and preserve all relevant logs for RCA.
+
+Preventive Actions (Short-term)
+High | Owner: Incident Manager → Conduct cross-team RCA covering DB, application, and infrastructure layers.
+Medium | Owner: DB Team → Implement monitoring and alerts for DB connection thresholds.
+Medium | Owner: Infra Team → Improve logging completeness and retention mechanisms.
+Low | Owner: Application Team → Review cache and session handling mechanisms.
+
+RACI Matrix
+Responsible (R): Application Team, DB Team, Infra Team
+Accountable (A): Incident Manager / IT Operations Lead
+Consulted (C): Vendor Support, Security Team
+Informed (I): Business Stakeholders, Delivery Leadership
+
+Root Cause Note
+Root cause is inconclusive. Indicators suggest multiple potential contributing factors, including DB connection saturation and application behavior. Further coordinated analysis required.
