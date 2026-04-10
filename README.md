@@ -1,3 +1,4 @@
+> Designed as a practical AI solution to standardize incident analysis, improve RCA quality, and support operational decision-making.
 # AI Incident Analysis Assistant
 
 ## Overview
