@@ -1,0 +1,7 @@
+Incident Title: Login failures in production
+Reported Time: 10:30 AM
+Systems Affected: App server, DB
+Symptoms Observed: Users unable to login, slow response
+Actions Taken: Restarted services, cleared cache
+Additional Notes / Logs: DB connections high, logs incomplete
+Repeat Issue: Yes
