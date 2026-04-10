@@ -1,3 +1,8 @@
+## Business Impact
+- Standardizes incident reporting and RCA across teams  
+- Reduces time spent on manual analysis  
+- Improves clarity in corrective and preventive actions  
+- Enhances accountability through structured ownership (RACI)  
 > Designed as a practical AI solution to standardize incident analysis, improve RCA quality, and support operational decision-making.
 # AI Incident Analysis Assistant
 
